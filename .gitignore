@@ -1,3 +1,6 @@
 chronograf/data/
 influxdb/data/
-kapacitor/data/
+kapacitor/data/*.pyc
+sessions
+backend/*.pyc
+kapacitor/

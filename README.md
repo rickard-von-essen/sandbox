@@ -27,7 +27,7 @@ sandbox commands:
 To get started just run `./sandbox up`. You browser will open two tabs:
 
 - `localhost:8888` - Chronograf's address. You will use this as a management UI for the full stack
-- `localhost:3000` - Documentation server. This contains a simple markdown server for some tutorials and documentation.
+- `localhost:3001` - Documentation server. This contains a simple markdown server for some tutorials and documentation.
 
 > NOTE: Make sure to stop any existing installations of `influxdb`, `kapacitor` or `chronograf`. If you have them running the sandbox will run into port conflicts and fail to properly start. In this case stop the existing processes and run `./sandbox restart`.
 
